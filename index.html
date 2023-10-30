@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">	
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<title>FOODS</title>
+</head>
+<body>
+	<header class="d-flex">
+		<div class="sidebar">
+			<div class="row pt-3">
+				<div class="col-12 main-content">
+					<div class="open-menu-logo text-center">
+						<img src="images/logo.png" alt="logo" class="img-fluid logo mb-3"><br>
+						<div class="menu-left">
+							<img src="images/menu-left.png" alt="menu" class="img-fluid">
+						</div>
+					</div>
+	
+					<div class="col-12">
+						<div class="socials text-center">
+							<a href=""><i class="fa-brands fa-youtube"></i></a>
+							<a href=""><i class="fa-brands fa-vk"></i></a>
+							<a href=""><i class="fa-brands fa-telegram"></i></a>
+						</div>
+					</div>
+
+					<ul class="sidebar-nav text-center justify-content-center align-items-center">
+						<li class="nav-item">
+							<a href="">Меню</a>
+						</li>
+						<li class="nav-item">
+							<a href="delivery.html">Доставка</a>
+						</li>
+						<li class="nav-item">
+							<a href="">Оплата</a>
+						</li>
+						<li class="nav-item">
+							<button class="header-btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Бронь столика</button>
+						</li>
+					</ul>
+						
+				</div>
+			</div>
+		</div>
+
+		<div class="intro">
+			<div class="row nav-menu">
+				<div class="col-12">
+					<ul class="nav justify-content-end align-items-center mt-3 d-md-flex d-none">
+						<li class="nav-item">
+							<a href="">Меню</a>
+						</li>
+						<li class="nav-item">
+							<a href="delivery.html">Доставка</a>
+						</li>
+						<li class="nav-item">
+							<a href="">Оплата</a>
+						</li>
+						<li class="nav-item">
+							<a class="header-btn btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Бронь столика</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Nav tabs -->	
+			</div>
+
+			<h1 class="intro-title w-75">Видовой ресторан Food Exxe Relo на Крестовском острове</h1>
+		</div>
+
+		<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+			<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+							<div class="modal-header text-center justify-content-center">
+									<div>
+											<img src="images/logo.png" alt="logo" class="img-fluid logo mb-3"><br>
+											<h5 class="modal-title text-uppercase" id="exampleModalToggleLabel">Забронировать столик</h5>
+									</div>
+									<button type="button" class="button-close" data-bs-dismiss="modal" aria-label="Close">
+											<i class="fa-solid fa-x"></i>
+									</button>
+							</div>
+							<div class="modal-body">
+									<input type="text" placeholder="Имя">
+									<input type="text" placeholder="Телефон">
+									<div class="book-time">
+											<input type="number" placeholder="Гостей">
+											<div class="datetime-input-container">
+													<input type="text" id="datetimeInput" placeholder="Время" data-toggle="datetimepicker">
+													<div class="datetimepicker" id="datetimepicker"></div>
+											</div>
+									</div>
+							</div>
+							<div class="modal-footer">
+									<button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Забронировать</button>
+							</div>
+					</div>
+			</div>
+	</div>
+
+		<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header text-start justify-content-center">
+						<div>
+							<img src="images/logo.png" alt="logo" class="img-fluid logo mb-3"><br>
+							<h5 class="modal-title text-uppercase" id="exampleModalToggleLabel">Столик забронирован</h5>
+						</div>
+						<button type="button" class="button-close" data-bs-dismiss="modal" aria-label="Close">
+							<i class="fa-solid fa-x"></i>
+						</button>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Назад</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header> <!-- HEADER -->
+
+	<section class="description">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-12">
+					<h2 class="description-title w-100 text-uppercase">О ресторане</h2>
+				</div>
+			</div>
+			<div class="row align-content-center description-content mb-5">
+				<div class="col-12 col-sm-6 d-flex justify-content-end">
+					<h1 class="text-center w-25 description-text-title">Food Exxe Relo</h1>
+				</div>
+
+				<div class="col-12 col-sm-6 w-50 d-flex justify-content-end">
+					<div class="description-text">
+						<p>
+							Sed vel ornare ut rhoncus, ac ut nibh. Amet at sit et nibh. In lectus phasellus non ornare eget velit. Facilisi urna, tristique dui, rhoncus, dolor. Tincidunt enim gravida dignissim leo pulvinar sit volutpat nulla vestibulum.
+						</p>
+						<p>
+							Morbi pellentesque enim massa laoreet vel id. Lectus ac, facilisis neque turpis. Morbi massa enim nullam sem vehicula. Amet quis pellentesque enim porttitor lectus interdum. Nisi, faucibus pharetra at porttitor. Fringilla luctus pretium in viverra. In adipiscing tempor amet malesuada ullamcorper ut sagittis. Dui, scelerisque vulputate risus massa dictum. Cras at quis in eu, faucibus feugiat vel. At.
+						</p>
+					</div>
+				</div>
+			</div> <!-- О РЕСТОРАНЕ -->
+
+			<div class="row mb-5">
+				<div class="col-12">
+					<h2 class="description-title w-100 text-uppercase">Меню</h2>
+				</div>
+			</div> 
+			<div class="row align-content-center description-content mb-3">
+				<div class="col-12 col-sm-6 d-flex justify-content-end">
+					<h1 class="text-center w-25 description-text-title">Меню</h1>
+				</div>
+
+				<div class="col-12 col-sm-6 w-50 d-flex justify-content-end">
+					<div class="description-text">
+						<p>
+							At faucibus nullam mauris vitae ut non. Augue libero non nibh nec, et eget erat. Nascetur nunc neque, varius massa aliquam interdum turpis massa. Ac tortor aliquam risus, interdum nisl mauris sit. Ut placerat fermentum pellentesque ac at. Vitae venenatis faucibus urna mi eget vitae quam eu. Euismod sed mauris id turpis iaculis. Erat rutrum dolor, vitae morbi.
+
+						</p>
+						<p>
+							Nunc cras cras aliquet blandit faucibus massa sagittis semper. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-4 col-sm-12">
+					<a href="">
+						<div class="menu-card mb-5">
+							<img class="img-fluid" src="images/menu.png" alt="Menu">
+						</div>
+					</a>
+
+					<h2 class="menu-title w-100  text-uppercase text-center">Основное меню</h2>
+				</div>
+
+				<div class="col-md-4 col-sm-12">
+					<a href="">
+						<div class="bar-card mb-5">
+							<img class="img-fluid" src="images/bar.png" alt="Bar">
+						</div>
+					</a>
+
+					<h2 class="menu-title w-100  text-uppercase text-center">Барная карта</h2>
+				</div> 
+			</div> <!-- МЕНЮ -->
+
+			<div class="row mb-5">
+				<div class="col-12">
+					<h2 class="description-title w-100 text-uppercase">Доставка</h2>
+				</div>
+			</div>
+			<div class="row align-content-center description-content mb-5">
+				<div class="col-12 col-sm-6 d-flex justify-content-end">
+					<h1 class="text-center w-25 description-text-title">Служба доставки</h1>
+				</div>
+
+				<div class="col-12 col-sm-6 w-50 d-flex justify-content-end">
+					<div class="description-text">
+						<p>
+							Phasellus diam, ultrices lobortis integer et. Diam, purus vel sagittis, non, a. In risus, venenatis enim vitae mauris aliquet orci. Consectetur nibh interdum nullam ut lobortis eu etiam sem. Et in vitae pellentesque non, lectus orci natoque faucibus suspendisse. Semper aliquam id et ultrices velit donec lacus. In odio sit nibh volutpat cras placerat sit feugiat dignissim. Rutrum et suspendisse tortor, lobortis eleifend in fringilla. Egestas cursus imperdiet cursus dui, nulla id massa. Hendrerit nam enim semper porttitor imperdiet diam semper. Nulla sit etiam cras morbi enim elementum euismod sapien.
+						</p>
+						
+					</div>
+				</div>
+			</div> <!-- О РЕСТОРАНЕ -->
+
+			<div class="row mb-5">
+				<div class="col-12">
+					<h2 class="description-title w-100 text-uppercase">Контакты</h2>
+				</div>
+			</div>
+
+			<div class="row justify-content-center align-items-center">
+				<div class="col-5">
+					<div class="row">
+						<div class="col-5 map-items">
+							<h1><strong>2</strong>минуты</h1>
+							<p>из центра Санкт-Петербурга</p>
+						</div>
+
+						<div class="col-5 map-items">
+							<h1><strong>12</strong>минуты</h1>
+							<p>из города Зеленогорск</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-5 map-items">
+							<h1><strong>42</strong>минуты</h1>
+							<p>из аэропорта Пулково</p>
+						</div>
+
+						<div class="col-5 map-items">
+							<h1><strong>52</strong>минуты</h1>
+							<p>из города Павловск</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-7 position-relative">
+					<div class="map-image">
+						<img src="images/map.png" alt="Map" class="img-fluid map">
+						<i class="fa-solid fa-map-pin map-pin position-absolute"></i>
+					</div>
+
+					<div class="work-hours position-absolute">
+
+						<div class="work-hours-content">
+							<div class="adress">
+								<i class="fa-solid fa-location-dot"></i>
+								<h2>Санкт-Петербург, Северная дорога, 11 </h2>
+							</div>
+							<div class="phone-number">
+								<i class="fa-solid fa-phone"></i>
+								<a href="tel:+79217777777">+7 (921) 777-77-77</a>
+							</div>
+							
+	
+							<p><strong>Время работы</strong></p>
+							<p><strong>Вск-Чт</strong> с 12:00 до 23:00</p>
+							<p><strong>Пт-Сб</strong> с 12:00 до 03:00</p>
+	
+							<button class="header-btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Бронь столика</button>
+							<button class="ask-q"><a href="">Задать вопрос</a></button>
+						</div>
+
+						
+					</div>
+				</div>
+			</div> <!-- КОНТАКТЫ-->
+
+
+			
+			
+
+		</div>
+		
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<img src="images/logo.png" alt="logo" class="img-fluid logo mb-3">
+					<h3>Политика конфиденциальности</h3>
+					<p>Дизайн d-e-n.ru</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/app.js"></script>
+	<script src="https://kit.fontawesome.com/f897a00291.js" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	
+</body>
+</html>
